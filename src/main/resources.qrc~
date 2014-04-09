@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/top.png</file>
+        <file>images/Home.png</file>
+        <file>images/Setting.png</file>
+        <file>images/Search.png</file>
+    </qresource>
+</RCC>

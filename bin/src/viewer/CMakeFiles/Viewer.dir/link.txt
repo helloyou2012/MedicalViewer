@@ -1,0 +1,2 @@
+/usr/bin/ar cr libViewer.a  CMakeFiles/Viewer.dir/filter_dialog.cpp.o CMakeFiles/Viewer.dir/slice_viewer.cpp.o CMakeFiles/Viewer.dir/plane_viewer.cpp.o CMakeFiles/Viewer.dir/volume_viewer.cpp.o CMakeFiles/Viewer.dir/moc_filter_dialog.cxx.o CMakeFiles/Viewer.dir/moc_slice_viewer.cxx.o CMakeFiles/Viewer.dir/moc_plane_viewer.cxx.o CMakeFiles/Viewer.dir/moc_volume_viewer.cxx.o
+/usr/bin/ranlib libViewer.a

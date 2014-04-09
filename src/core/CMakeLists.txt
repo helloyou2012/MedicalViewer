@@ -1,0 +1,1 @@
+add_library(Core TMImage.cpp)

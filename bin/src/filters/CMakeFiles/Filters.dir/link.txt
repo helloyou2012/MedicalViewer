@@ -1,0 +1,2 @@
+/usr/bin/ar cr libFilters.a  CMakeFiles/Filters.dir/filter.cpp.o CMakeFiles/Filters.dir/threshold_filter.cpp.o CMakeFiles/Filters.dir/filter_factory.cpp.o
+/usr/bin/ranlib libFilters.a

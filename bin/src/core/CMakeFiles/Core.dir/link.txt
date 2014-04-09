@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCore.a  CMakeFiles/Core.dir/TMImage.cpp.o
+/usr/bin/ranlib libCore.a

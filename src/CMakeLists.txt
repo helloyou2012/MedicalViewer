@@ -1,0 +1,6 @@
+# recursive call
+ADD_SUBDIRECTORY(filters)
+ADD_SUBDIRECTORY(main)
+ADD_SUBDIRECTORY(viewer)
+ADD_SUBDIRECTORY(core)
+ADD_SUBDIRECTORY(qxt)

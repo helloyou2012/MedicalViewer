@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="MedicalViewer" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\;CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\;CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\CMake\;CMake Files\src\;CMake Files\src\filters\;CMake Files\src\main\;CMake Files\src\viewer\;CMake Files\src\core\;CMake Files\src\qxt\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="doc">
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 doc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Filters">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/libFilters.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 Filters" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Filters/fast">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/libFilters.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 Filters/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="medical_viewer">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/medical_viewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 medical_viewer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="medical_viewer/fast">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/medical_viewer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 medical_viewer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Viewer">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/libViewer.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 Viewer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Viewer/fast">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/libViewer.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 Viewer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Core">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/libCore.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 Core" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Core/fast">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/libCore.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 Core/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Qxt">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/libQxt.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 Qxt" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Qxt/fast">
+         <Option output="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/libQxt.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DITK_IO_FACTORY_REGISTER_MANAGER" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/ITKIOFactoryRegistration" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/contrib/itk-aux/vtk" />
+            <Add directory="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/ITK-4.2" />
+            <Add directory="/usr/local/include/vtk-5.10" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 Qxt/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/core/TMImage.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/filter.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/filter_factory.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/threshold_filter.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/main.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/main_window.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt/qxtglobal.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt/qxtspanslider.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/filter_dialog.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/plane_viewer.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/slice_viewer.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/volume_viewer.cpp">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/core/TMImage.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/filter.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/filter_factory.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/threshold_filter.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/main_window.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/main_window.ui">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/resources.qrc">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt/qxtglobal.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt/qxtspanslider.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt/qxtspanslider_p.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/filter_dialog.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/filter_dialog.ui">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/plane_viewer.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/plane_viewer.ui">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/slice_viewer.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/volume_viewer.h">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/volume_viewer.ui">
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/Doxyfile.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/ITKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/ITKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/ITKTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/ITKTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/ITKModuleAPI.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/UseITK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/itkImageIOFactoryRegisterManager.h.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/itkTransformIOFactoryRegisterManager.h.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKKWSys.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVNL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVNLInstantiation.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKCommon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKFiniteDifference.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageFilterBase.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKCurvatureFlow.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageAdaptors.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKNetlib.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKStatistics.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKTransform.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageFunction.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageGrid.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKAnisotropicSmoothing.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOImageBase.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOBMP.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOBioRad.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKExpat.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKOpenJPEG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKZLIB.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGDCM.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOGDCM.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOGIPL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKJPEG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOJPEG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKTIFF.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOTIFF.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOLSM.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKMetaIO.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOMeta.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKNIFTI.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIONIFTI.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKNrrdIO.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIONRRD.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKPNG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOPNG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOStimulate.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKTestKernel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageCompose.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKMesh.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKSpatialObjects.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageStatistics.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKPath.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageIntensity.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageLabel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKThresholding.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKConnectedComponents.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKMathematicalMorphology.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKLabelMap.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKBinaryMathematicalMorphology.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKNarrowBand.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDistanceMap.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKQuadEdgeMesh.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKFastMarching.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageCompare.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKSmoothing.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageGradient.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageSources.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageFeature.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKOptimizers.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKSignedDistanceFunction.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKLevelSets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKAntiAlias.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKPolynomials.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKBiasCorrection.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKBioCell.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKClassifiers.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKColormap.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKFFT.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKConvolution.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDICOMParser.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDeconvolution.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDeformableMesh.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDenoising.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDiffusionTensorImage.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDisplacementField.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKEigen.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOXML.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOSpatialObjects.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKRegistrationCommon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKFEM.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKPDEDeformableRegistration.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKFEMRegistration.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOIPL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOGE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIORAW.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOSiemens.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKKLMRegionGrowing.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKLabelVoting.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKMarkovRandomFieldsClassifiers.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKNeuralNetworks.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKQuadEdgeMeshFiltering.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKRegionGrowing.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKSpatialFunction.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVoronoi.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKWatersheds.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKDeprecated.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGIFTI.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOMesh.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUCommon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUFiniteDifference.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUAnisotropicSmoothing.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUImageFilterBase.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPURegistrationCommon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUPDEDeformableRegistration.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUSmoothing.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKGPUThresholding.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKHDF5.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOCSV.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOHDF5.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOTransformBase.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOTransformHDF5.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOTransformInsightLegacy.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIOTransformMatlab.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKImageFusion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKIntegratedTest.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKLevelSetsv4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKOptimizersv4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKMetricsv4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKRegistrationMethodsv4.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKReview.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKV3Compatibility.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVideoCore.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVideoIO.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/cmake/ITK-4.2/Modules/ITKVideoFiltering.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\ITK-4.2\Modules\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKTargets-debug.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/VTKConfigQt.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/UseVTK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/../../../../../usr/local/lib/vtk-5.10/CMake/vtkMakeInstantiator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\vtk-5.10\CMake\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/filters/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\filters\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\main\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/main/resources.qrc">
+          <Option virtualFolder="CMake Files\src\main\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/viewer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\viewer\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\core\" />
+      </Unit>
+      <Unit filename="/home/helloyou/Desktop/Apps/MedicalViewer/src/qxt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\qxt\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

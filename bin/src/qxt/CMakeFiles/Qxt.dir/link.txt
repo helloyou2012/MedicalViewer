@@ -1,0 +1,2 @@
+/usr/bin/ar cr libQxt.a  CMakeFiles/Qxt.dir/qxtglobal.cpp.o CMakeFiles/Qxt.dir/qxtspanslider.cpp.o CMakeFiles/Qxt.dir/moc_qxtglobal.cxx.o CMakeFiles/Qxt.dir/moc_qxtspanslider.cxx.o CMakeFiles/Qxt.dir/moc_qxtspanslider_p.cxx.o
+/usr/bin/ranlib libQxt.a

@@ -1,0 +1,6 @@
+/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/core/CMakeFiles/Core.dir
+/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/filters/CMakeFiles/Filters.dir
+/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/qxt/CMakeFiles/Qxt.dir
+/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/viewer/CMakeFiles/Viewer.dir
+/home/helloyou/Desktop/Apps/MedicalViewer/bin/CMakeFiles/doc.dir
+/home/helloyou/Desktop/Apps/MedicalViewer/bin/src/main/CMakeFiles/medical_viewer.dir
